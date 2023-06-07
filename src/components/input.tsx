@@ -57,5 +57,4 @@ const Input: React.FC<InputProps> = ({ id, onChange, value, label, type }) => {
     )
   }
 
-
 export default Input;

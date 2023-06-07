@@ -7,11 +7,15 @@
 /coverage
 
 # next.js
-/.next/
+/.next
 /out/
+
 
 # production
 /build
+
+# prisma
+schema.prisma
 
 # misc
 .DS_Store
@@ -33,3 +37,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+global.d.ts
